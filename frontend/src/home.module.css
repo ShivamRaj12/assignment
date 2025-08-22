@@ -1,0 +1,66 @@
+/* Products.css */
+
+
+/* Container */
+.products-container {
+  padding: 1.5rem; /* same as p-6 */
+  background-color: #f9fafb; /* gray-50 */
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+/* Heading */
+.products-heading {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 800; /* font-extrabold */
+  margin-bottom: 1.5rem;
+  color: #1f2937; /* gray-800 */
+  text-align: center;
+}
+
+/* Table Wrapper */
+.products-table-wrapper {
+  
+}
+
+/* Table */
+.products-table {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* shadow-md */
+  border-collapse: collapse;
+}
+
+/* Table Head */
+.products-table thead {
+  background-color: #2563eb; /* blue-600 */
+  color: #ffffff;
+}
+
+.products-table th {
+  padding: 0.75rem 1.5rem; /* px-6 py-3 */
+  text-align: left;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem; /* text-sm */
+}
+
+/* Table Body */
+.products-table tbody td {
+  padding: 1rem 1.5rem; /* px-6 py-4 */
+  color: #1f2937; /* gray-800 for name/price */
+  border-top: 1px solid #e5e7eb; /* divide-gray-200 */
+}
+
+.products-table tbody td.description {
+  color: #4b5563; /* gray-600 for description */
+}
+
+/* Table row hover effect */
+.products-table tbody tr:hover {
+  background-color: #f3f4f6; /* gray-100 */
+  transition: background-color 0.2s ease-in-out;
+}
+
+
