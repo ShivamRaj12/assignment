@@ -57,46 +57,47 @@
 
 
 
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-import requests
-from bs4 import BeautifulSoup
+# from fastapi import FastAPI
+# from fastapi.middleware.cors import CORSMiddleware
+# import requests
+# from bs4 import BeautifulSoup
 
-app = FastAPI()
+# app = FastAPI()
 
-# Allow frontend (React) to call this API
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],  
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# # Allow frontend (React) to call this API
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["*"],  
+#     allow_credentials=True,
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 
-@app.get("/products")
-def get_products():
-    url = "https://webscraper.io/test-sites/e-commerce/allinone/computers/tablets"
-    r = requests.get(url)
-    soup = BeautifulSoup(r.text, "lxml")
+# @app.get("/products")
+# def get_products():
+#     url = "https://webscraper.io/test-sites/e-commerce/allinone/computers/tablets"
+#     r = requests.get(url)
+#     soup = BeautifulSoup(r.text, "lxml")
 
-    products = []
+#     products = []
 
-    items = soup.find_all("div", class_="col-sm-4 col-lg-4 col-md-4")
+#     items = soup.find_all("div", class_="col-sm-4 col-lg-4 col-md-4")
 
-    for item in items:
-        name = item.find("a", class_="title").text.strip()
-        price = item.find("h4", class_="pull-right price").text.strip()
-        desc = item.find("p", class_="description").text.strip()
+#     for item in items:
+#         name = item.find("a", class_="title").text.strip()
+#         price = item.find("h4", class_="pull-right price").text.strip()
+#         desc = item.find("p", class_="description").text.strip()
 
-        products.append({
-            "name": name,
-            "price": price,
-            "description": desc
-        })
+#         products.append({
+#             "name": name,
+#             "price": price,
+#             "description": desc
+#         })
 
-    return {"products": products}
-
-
+#     return {"products": products}
 
 
 
+
+
+# backend/main.py

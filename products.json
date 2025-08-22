@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Lenovo IdeaTab",
+        "price": "$69.99",
+        "description": "7\" screen, Android"
+    },
+    {
+        "name": "IdeaTab A3500L",
+        "price": "$88.99",
+        "description": "Black, 7\" IPS, Quad-Core 1.2GHz, 8GB, Android 4.2"
+    },
+    {
+        "name": "Acer Iconia",
+        "price": "$96.99",
+        "description": "7\" screen, Android, 16GB"
+    },
+    {
+        "name": "Galaxy Tab 3",
+        "price": "$97.99",
+        "description": "7\", 8GB, Wi-Fi, Android 4.2, White"
+    },
+    {
+        "name": "Iconia B1-730H...",
+        "price": "$99.99",
+        "description": "Black, 7\", 1.6GHz Dual-Core, 8GB, Android 4.4"
+    },
+    {
+        "name": "Memo Pad HD 7",
+        "price": "$101.99",
+        "description": "IPS, Dual-Core 1.2GHz, 8GB, Android 4.3"
+    },
+    {
+        "name": "Asus MeMO Pad",
+        "price": "$102.99",
+        "description": "7\" screen, Android, 8GB"
+    },
+    {
+        "name": "Amazon Kindle",
+        "price": "$103.99",
+        "description": "6\" screen, wifi"
+    },
+    {
+        "name": "Galaxy Tab 3",
+        "price": "$107.99",
+        "description": "7\", 8GB, Wi-Fi, Android 4.2, Yellow"
+    },
+    {
+        "name": "IdeaTab A8-50",
+        "price": "$121.99",
+        "description": "Blue, 8\" IPS, Quad-Core 1.3GHz, 16GB, Android 4.2"
+    },
+    {
+        "name": "MeMO Pad 7",
+        "price": "$130.99",
+        "description": "White, 7\", Atom 1.2GHz, 8GB, Android 4.4"
+    },
+    {
+        "name": "IdeaTab A3500-...",
+        "price": "$148.99",
+        "description": "Blue, 7\" IPS, Quad-Core 1.3GHz, 8GB, 3G, Android 4.2"
+    },
+    {
+        "name": "IdeaTab S5000",
+        "price": "$172.99",
+        "description": "Silver, 7\" IPS, Quad-Core 1.2Ghz, 16GB, 3G, Android 4.2"
+    },
+    {
+        "name": "Galaxy Tab 4",
+        "price": "$233.99",
+        "description": "LTE (SM-T235), Quad-Core 1.2GHz, 8GB, Black"
+    },
+    {
+        "name": "Galaxy Tab",
+        "price": "$251.99",
+        "description": "16GB, White"
+    },
+    {
+        "name": "MeMo PAD FHD 1...",
+        "price": "$320.99",
+        "description": "White, 10.1\" IPS, 1.6GHz, 2GB, 16GB, Android 4.2"
+    },
+    {
+        "name": "Galaxy Note",
+        "price": "$399.99",
+        "description": "10.1\", 3G, Android 4.0, Garnet Red"
+    },
+    {
+        "name": "Galaxy Note",
+        "price": "$489.99",
+        "description": "12.2\", 32GB, WiFi, Android 4.4, White"
+    },
+    {
+        "name": "iPad Mini Reti...",
+        "price": "$537.99",
+        "description": "Wi-Fi + Cellular, 32GB, Silver"
+    },
+    {
+        "name": "Galaxy Note 10...",
+        "price": "$587.99",
+        "description": "10.1\", 32GB, Black"
+    },
+    {
+        "name": "Apple iPad Air",
+        "price": "$603.99",
+        "description": "Wi-Fi, 64GB, Silver"
+    }
+]
