@@ -29,7 +29,7 @@ This project is part of my assignment submission.
 <img src="https://via.placeholder.com/900x500.png?text=Update+Product+Page+Screenshot" alt="Update Product Page Screenshot">  
 
 <p>Delete Confirmation</p>  
-<img src="https://via.placeholder.com/900x500.png?text=Delete+Product+Screenshot" alt="Delete Product Screenshot">  
+<img src="C:\Users\Shivam Raj\Desktop\assignment\frontend\public\images\table" alt="Delete Product Screenshot">  
 
 ---
 
