@@ -35,32 +35,45 @@
 // export default App
 
 
-import { useEffect, useState } from "react";
-import axios from "axios";
+// import { useEffect, useState } from "react";
+// import axios from "axios";
+
+// function App() {
+//   const [data, setData] = useState([]);
+
+//   useEffect(() => {
+//     axios.get("http://127.0.0.1:8000/api/data")
+//       .then(res => setData(res.data.products))
+//       .catch(err => console.error(err));
+//   }, []);
+
+//   return (
+//     <div className="p-4">
+//       <h1 className="text-2xl font-bold">React + Vite + Python</h1>
+//       <ul>
+//         {data.map((item, index) => (
+//           <li key={index}>{item}</li>
+//         ))}
+//       </ul>
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+import { Routes, Route } from "react-router-dom";
+import Login from "./login";
+import Home from "./home";
 
 function App() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    axios.get("http://127.0.0.1:8000/api/data")
-      .then(res => setData(res.data.products))
-      .catch(err => console.error(err));
-  }, []);
-
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold">React + Vite + Python</h1>
-      <ul>
-        {data.map((item, index) => (
-          <li key={index}>{item}</li>
-        ))}
-      </ul>
-    </div>
+    <Routes>
+      <Route path="/" element={<Login/>} />
+      <Route path="/home" element={<Home />} />
+    </Routes>
   );
 }
 
 export default App;
-
-
-
 
