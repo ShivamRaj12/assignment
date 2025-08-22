@@ -1,1 +1,54 @@
+/* Products.css */
 
+/* Container */
+.products-container {
+  padding: 1.5rem; /* same as p-6 */
+  background-color: #f9fafb; /* optional light gray background */
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+/* Heading */
+.products-heading {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111827; /* text-gray-900 */
+  text-align: center;
+}
+
+/* Table */
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d1d5db; /* border-gray-400 */
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Table Head */
+.products-table thead {
+  background-color: #3b82f6; /* blue-500 */
+  color: white;
+  text-align: left;
+}
+
+.products-table th {
+  padding: 0.75rem 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Table Body */
+.products-table td {
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #e5e7eb; /* gray-200 */
+  color: #374151; /* gray-700 */
+}
+
+/* Table Row Hover */
+.products-table tbody tr:hover {
+  background-color: #f3f4f6; /* gray-100 */
+  transition: background-color 0.2s ease-in-out;
+}
